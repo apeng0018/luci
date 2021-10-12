@@ -942,7 +942,7 @@ return view.extend({
 
 				if (hwtype == 'mac80211') {
 					o = ss.taboption('general', form.Flag, 'legacy_rates', _('Allow legacy 802.11b rates'), _('Legacy or badly behaving devices may require legacy 802.11b rates to interoperate. Airtime efficiency may be significantly reduced where these are used. It is recommended to not allow 802.11b rates where possible.'));
-					o.depends({'_freq': '11g', '!contains': true});
+					o.depends({'_freq': '2g', '!contains': true});
 
 					o = ss.taboption('general', CBIWifiTxPowerValue, 'txpower', _('Maximum transmit power'), _('Specifies the maximum transmit power the wireless radio may use. Depending on regulatory requirements and wireless usage, the actual transmit power may be reduced by the driver.'));
 					o.wifiNetwork = radioNet;
@@ -1677,7 +1677,7 @@ return view.extend({
 					if (hwtype == 'mac80211') {
 						// ieee802.11w options
 						o = ss.taboption('encryption', form.ListValue, 'ieee80211w', _('802.11w Management Frame Protection'), _("Note: Some wireless drivers do not fully support 802.11w. E.g. mwlwifi may have problems"));
-						o.value('', _('Disabled'));
+						o.value('0', _('Disabled'));
 						o.value('1', _('Optional'));
 						o.value('2', _('Required'));
 						add_dependency_permutations(o, { mode: ['ap', 'ap-wds', 'sta', 'sta-wds'], encryption: ['owe', 'psk2', 'psk-mixed', 'sae', 'sae-mixed', 'wpa2', 'wpa3', 'wpa3-mixed'] });
@@ -1685,7 +1685,14 @@ return view.extend({
 						o.defaults = {
 							'2': [{ encryption: 'sae' }, { encryption: 'owe' }, { encryption: 'wpa3' }, { encryption: 'wpa3-mixed' }],
 							'1': [{ encryption: 'sae-mixed'}],
-							'':  []
+							'0': []
+						};
+
+						o.write = function(section_id, value) {
+							if (value != this.default)
+								return form.ListValue.prototype.write.call(this, section_id, value);
+							else
+								return form.ListValue.prototype.remove.call(this, section_id);
 						};
 
 						o = ss.taboption('encryption', form.Value, 'ieee80211w_max_timeout', _('802.11w maximum timeout'), _('802.11w Association SA Query maximum timeout'));

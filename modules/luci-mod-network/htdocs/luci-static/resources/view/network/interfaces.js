@@ -643,7 +643,7 @@ return view.extend({
 							E('p', _('No DHCP Server configured for this interface') + ' &#160; '),
 							E('button', {
 								'class': 'cbi-button cbi-button-add',
-								'title': _('Setup DHCP Server'),
+								'title': _('Set up DHCP Server'),
 								'click': ui.createHandlerFn(this, function(section_id, ev) {
 									this.map.save(function() {
 										uci.add('dhcp', 'dhcp', section_id);
@@ -659,7 +659,7 @@ return view.extend({
 										}
 									});
 								}, ifc.getName())
-							}, _('Setup DHCP Server'))
+							}, _('Set up DHCP Server'))
 						]);
 					};
 
@@ -950,7 +950,12 @@ return view.extend({
 				o = nettools.replaceOption(s, 'advanced', form.Value, 'ip6table', _('Override IPv6 routing table'));
 				o.datatype = 'or(uinteger, string)';
 				for (var i = 0; i < rtTables.length; i++)
-					o.value(rtTables[i][1], '%s (%d)'.format(rtTables[i][0], rtTables[i][1]));
+					o.value(rtTables[i][1], '%s (%d)'.format(rtTables[i][1], rtTables[i][0]));
+
+				if (protoval == 'dhcpv6') {
+					o = nettools.replaceOption(s, 'advanced', form.Flag, 'sourcefilter', _('IPv6 source routing'), _('Automatically handle multiple uplink interfaces using source-based policy routing.'));
+					o.default = o.enabled;
+				}
 
 				o = nettools.replaceOption(s, 'advanced', form.Flag, 'delegate', _('Delegate IPv6 prefixes'), _('Enable downstream delegation of IPv6 prefixes available on this interface'));
 				o.default = o.enabled;
@@ -1273,7 +1278,7 @@ return view.extend({
 			var trEl = this.super('renderRowActions', [ section_id, _('Configure…') ]),
 			    deleteBtn = trEl.querySelector('button:last-child');
 
-			deleteBtn.firstChild.data = _('Reset');
+			deleteBtn.firstChild.data = _('Unconfigure');
 			deleteBtn.setAttribute('title', _('Remove related device settings from the configuration'));
 			deleteBtn.disabled = section_id.match(/^dev:/) ? true : null;
 

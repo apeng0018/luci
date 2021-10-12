@@ -367,6 +367,17 @@ function cbi_validate_form(form, errmsg)
 	return true;
 }
 
+function cbi_validate_named_section_add(input)
+{
+	var button = input.parentNode.parentNode.querySelector('.cbi-button-add');
+	if (input.value !== '') {
+		button.disabled = false;
+	}
+	else {
+		button.disabled = true;
+	}
+}
+
 function cbi_validate_reset(form)
 {
 	window.setTimeout(
@@ -646,7 +657,11 @@ String.prototype.format = function()
 						for (i = 0; (i < units.length) && (val > mf); i++)
 							val /= mf;
 
-						subst = (i ? val.toFixed(pr) : val) + units[i];
+						if (i)
+							subst = val.toFixed(pr) + units[i] + (mf == 1024 ? 'i' : '');
+						else
+							subst = val + ' ';
+
 						pMinLength = null;
 						break;
 				}
