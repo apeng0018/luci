@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2020-03-29 21:21+0000\n"
-"Last-Translator: Cristian Ionescu <joker_op@yahoo.com>\n"
+"PO-Revision-Date: 2021-12-01 15:03+0000\n"
+"Last-Translator: Simona Iacob <s@zp1.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsnut/ro/>\n"
 "Language: ro\n"
@@ -11,116 +11,122 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:216
 msgid "Additional Shutdown Time(s)"
-msgstr ""
+msgstr "Timp(i) suplimentar(i) de oprire"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:37
 msgid "Addresses on which to listen"
-msgstr ""
+msgstr "Adresele la care se ascultă"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:23
 msgid "Allowed actions"
-msgstr ""
+msgstr "Acțiuni permise"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:20
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:188
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:217
 msgid "As configured by NUT"
-msgstr ""
+msgstr "După cum este configurat de NUT"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:150
 msgid "Bytes to read from interrupt pipe"
-msgstr ""
+msgstr "Byte de citit din conducta de întrerupere"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:174
 msgid "CA Certificate path"
-msgstr ""
+msgstr "Calea certificatului CA"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:73
 msgid "Certificate file (SSL)"
-msgstr ""
+msgstr "Fișier de certificat (SSL)"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:63
 msgid "Communications lost message"
-msgstr ""
+msgstr "Mesaj de comunicare pierdut"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:60
 msgid "Communications restored message"
-msgstr ""
+msgstr "Mesaj de restabilire a comunicațiilor"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:35
 msgid "Control UPS via CGI"
-msgstr ""
+msgstr "Controlul UPS prin CGI"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:43
 msgid "Deadtime"
-msgstr ""
+msgstr "Timp mort"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:87
 msgid "Default for UPSes without this field."
-msgstr ""
+msgstr "Implicit pentru UPS-urile fără acest câmp."
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:177
 msgid "Delay for kill power command"
-msgstr ""
+msgstr "Întârziere pentru comanda de oprire a puterii"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:181
 msgid "Delay to power on UPS if power returns after kill power"
 msgstr ""
+"Întârzierea de a porni UPS-ul în cazul în care revine curentul după "
+"întreruperea alimentării"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:129
 msgid "Description (Display)"
-msgstr ""
+msgstr "Descriere (Afișare)"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:32
 msgid "Display name"
-msgstr ""
+msgstr "Afișați numele"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:169
 msgid "Don't lock port when starting driver"
-msgstr ""
+msgstr "Nu blocați portul la pornirea driverului"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:132
 msgid "Driver"
-msgstr ""
+msgstr "Driver"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:114
 msgid "Driver Configuration"
-msgstr ""
+msgstr "Configurația șoferului"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:77
 msgid "Driver Global Settings"
-msgstr ""
+msgstr "Setări globale ale driverului"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:83
 msgid "Driver Path"
-msgstr ""
+msgstr "Traiectoria șoferului"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:212
 msgid "Driver Shutdown Order"
-msgstr ""
+msgstr "Ordinul de oprire a șoferului"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:106
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:244
 msgid "Driver waits for data to be consumed by upsd before publishing more."
 msgstr ""
+"Driverul așteaptă ca datele să fie consumate de upsd înainte de a publica "
+"mai multe."
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:59
 msgid "Drop privileges to this user"
-msgstr ""
+msgstr "Eliminarea privilegiilor pentru acest utilizator"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:40
 msgid "Enable"
-msgstr "Activează"
+msgstr "Activați"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:138
 msgid ""
 "Enables a hotplug script that makes all ttyUSB devices (e.g. serial USB) "
 "group read-write as user 'nut'"
 msgstr ""
+"Activează un script hotplug care face ca toate dispozitivele ttyUSB (de "
+"exemplu, USB serial) să fie citite-scrise în grup ca utilizator 'nut'"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:93
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:102
@@ -133,48 +139,48 @@ msgstr ""
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:158
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:166
 msgid "Execute notify command"
-msgstr ""
+msgstr "Executarea comenzii de notificare"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:26
 msgid "Forced Shutdown"
-msgstr ""
+msgstr "Oprire forțată"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:57
 msgid "Forced shutdown message"
-msgstr ""
+msgstr "Mesaj de oprire forțată"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:10
 msgid "Global Settings"
-msgstr ""
+msgstr "Setări generale"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:13
 msgid "Go to NUT CGI"
-msgstr ""
+msgstr "Mergeți la NUT CGI"
 
 #: applications/luci-app-nut/root/usr/share/rpcd/acl.d/luci-app-nut.json:3
 msgid "Grant UCI access for luci-app-nut"
-msgstr ""
+msgstr "Acordă acces la UCI pentru luci-app-nut"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:16
 msgid "Host"
-msgstr ""
+msgstr "Gazdă"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:23
 msgid "Hostname or IP address"
-msgstr ""
+msgstr "Numele de gazdă sau adresa IP"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:191
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:220
 msgid "Hostname or address of UPS"
-msgstr ""
+msgstr "Numele de gazdă sau adresa UPS-ului"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:39
 msgid "Hot Sync"
-msgstr ""
+msgstr "Sincronizare la cald"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:41
 msgid "IP Address"
-msgstr ""
+msgstr "Adresa IP"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:95
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:104
@@ -187,108 +193,108 @@ msgstr ""
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:160
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:168
 msgid "Ignore"
-msgstr ""
+msgstr "Ignoră"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:142
 msgid "Ignore Low Battery"
-msgstr ""
+msgstr "Ignoră bateria descărcată"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:29
 msgid "Instant commands"
-msgstr ""
+msgstr "Comenzi instantanee"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:146
 msgid "Interrupt Only"
-msgstr ""
+msgstr "Numai întrerupere"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:150
 msgid "Interrupt Size"
-msgstr ""
+msgstr "Dimensiunea întreruperii"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:54
 msgid "Low battery message"
-msgstr ""
+msgstr "Mesaj de baterie descărcată"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:163
 msgid "Manufacturer (Display)"
-msgstr ""
+msgstr "Producător (Afișaj)"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:34
 msgid "Master"
-msgstr ""
+msgstr "Maestru"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:154
 msgid "Max USB HID Length Reported"
-msgstr ""
+msgstr "Lungimea maximă USB HID raportată"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:54
 msgid "Maximum Age of Data"
-msgstr ""
+msgstr "Vârsta maximă a datelor"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:91
 msgid "Maximum Retries"
-msgstr ""
+msgstr "Reîncercări maxime"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:87
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:158
 msgid "Maximum Start Delay"
-msgstr ""
+msgstr "Întârziere maximă de pornire"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:67
 msgid "Maximum connections"
-msgstr ""
+msgstr "Conexiuni maxime"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:91
 msgid "Maximum number of times to try starting a driver."
-msgstr ""
+msgstr "Numărul maxim de încercări de pornire a unui driver."
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:101
 msgid "Maximum time in seconds between refresh of UPS status"
-msgstr ""
+msgstr "Timp maxim în secunde între actualizarea stării UPS"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:17
 msgid "Minimum required number or power supplies"
-msgstr ""
+msgstr "Numărul minim necesar de surse de alimentare"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:166
 msgid "Model (Display)"
-msgstr ""
+msgstr "Model (Afișaj)"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:9
 msgid "NUT CGI Access"
-msgstr ""
+msgstr "Accesul NUT CGI"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:12
 msgid "NUT Users"
-msgstr ""
+msgstr "Utilizatori NUT"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:188
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:217
 msgid "Name of UPS"
-msgstr ""
+msgstr "Numele UPS"
 
 #: applications/luci-app-nut/root/usr/share/luci/menu.d/luci-app-nut.json:3
 msgid "Network UPS Tools"
-msgstr ""
+msgstr "Instrumente de rețea UPS"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:6
 #: applications/luci-app-nut/root/usr/share/luci/menu.d/luci-app-nut.json:44
 msgid "Network UPS Tools (CGI)"
-msgstr ""
+msgstr "Instrumente de rețea UPS (CGI)"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:7
 #: applications/luci-app-nut/root/usr/share/luci/menu.d/luci-app-nut.json:31
 msgid "Network UPS Tools (Monitor)"
-msgstr ""
+msgstr "Instrumente de rețea UPS (Monitor)"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:9
 #: applications/luci-app-nut/root/usr/share/luci/menu.d/luci-app-nut.json:18
 msgid "Network UPS Tools (Server)"
-msgstr ""
+msgstr "Instrumente de rețea UPS (server)"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:7
 msgid "Network UPS Tools CGI Configuration"
-msgstr ""
+msgstr "Instrumente de rețea UPS Instrumente de configurare CGI"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:8
 msgid "Network UPS Tools Monitoring Configuration"
@@ -375,7 +381,7 @@ msgstr ""
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:237
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:19
 msgid "Password"
-msgstr ""
+msgstr "Parolă"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:174
 msgid "Path containing ca certificates to match against host certificate"
@@ -440,7 +446,7 @@ msgstr ""
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:32
 msgid "Role"
-msgstr ""
+msgstr "Rol"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:80
 msgid "Run drivers in a chroot(2) environment"
@@ -565,7 +571,7 @@ msgstr ""
 #: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:234
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:16
 msgid "Username"
-msgstr ""
+msgstr "Nume Utilizator"
 
 #: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:238
 msgid "Vendor (regex)"

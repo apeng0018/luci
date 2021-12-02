@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-10 12:23+0000\n"
-"Last-Translator: Alexandru Stan <alex9457sn@gmail.com>\n"
+"PO-Revision-Date: 2021-12-01 14:54+0000\n"
+"Last-Translator: Simona Iacob <s@zp1.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsunbound/ro/>\n"
 "Language: ro\n"
@@ -9,36 +9,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:160
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:53
 msgid "(none)"
-msgstr ""
+msgstr "(niciunul)"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:96
 msgid "(root)"
-msgstr ""
+msgstr "(root)"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:202
 msgid ", and <var>%s</var> entries"
-msgstr ""
+msgstr ", și intrările <var>%s</var>"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:172
 msgid ", and try <var>%s</var>"
-msgstr ""
+msgstr ", și încercați <var>%s</var>"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:78
 msgid "AXFR"
-msgstr ""
+msgstr "AXFR"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:68
 msgid "Accept queries only from local subnets"
-msgstr ""
+msgstr "Acceptă interogări numai din subrețele locale"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:216
 msgid "Adblock domain list is too large to display in LuCI."
-msgstr ""
+msgstr "Lista de domenii Adblock este prea mare pentru a fi afișată în LuCI."
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:47
 msgid "Advanced"
@@ -46,180 +46,187 @@ msgstr "Avansat"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:262
 msgid "Aggressive"
-msgstr ""
+msgstr "Agresivitate"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:34
 msgid "Allow open recursion when record not in zone"
 msgstr ""
+"Permiteți recursiunea deschisă atunci când înregistrarea nu se află în zonă"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:38
 msgid "Authoritative (zone file)"
-msgstr ""
+msgstr "Autoritar (fișier de zonă)"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:42
 msgid "Basic"
-msgstr ""
+msgstr "De bază"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:267
 msgid "Break down query components for limited added privacy"
 msgstr ""
+"Descompuneți componentele interogării pentru o confidențialitate "
+"suplimentară limitată"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:78
 msgid "Break the loop where DNSSEC needs NTP and NTP needs DNS"
 msgstr ""
+"Desfaceți bucla în care DNSSEC are nevoie de NTP și NTP are nevoie de DNS"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:52
 msgid "Check for local program to allow forward to localhost"
 msgstr ""
+"Verificați dacă programul local permite redirecționarea către localhost"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:84
 msgid "Choose Unbounds listening port"
-msgstr ""
+msgstr "Alegeți Unbounds listening port"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:238
 msgid "Chose the IP versions used upstream and downstream"
-msgstr ""
+msgstr "Alegeți versiunile IP utilizate în upstream și downstream"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:64
 msgid "Connect to servers using TLS"
-msgstr ""
+msgstr "Conectarea la servere utilizând TLS"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:48
 msgid "DHCP"
-msgstr ""
+msgstr "DHCP"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:158
 msgid "DHCP Link"
-msgstr ""
+msgstr "Legătura DHCP"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:166
 msgid "DHCPv4 to SLAAC"
-msgstr ""
+msgstr "DHCPv4 la SLAAC"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:57
 msgid "DNS Cache"
-msgstr ""
+msgstr "Memoria cache DNS"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:51
 msgid "DNS Plugin"
-msgstr ""
+msgstr "Plugin DNS"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:63
 msgid "DNS over TLS"
-msgstr ""
+msgstr "DNS prin TLS"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:107
 msgid "DNS64 Prefix"
-msgstr ""
+msgstr "Prefixul DNS64"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:77
 msgid "DNSSEC NTP Fix"
-msgstr ""
+msgstr "Fixare DNSSEC NTP"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:239
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:250
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:260
 msgid "Default"
-msgstr ""
+msgstr "Implicită"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:181
 msgid "Denied (nxdomain)"
-msgstr ""
+msgstr "Refuzat (nxdomain)"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:22
 msgid "Directed Zone"
-msgstr ""
+msgstr "Zona dirijată"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:85
 msgid "Directory only part of URL"
-msgstr ""
+msgstr "Director doar o parte din URL"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:115
 msgid "Domain Insecure"
-msgstr ""
+msgstr "Domeniu nesigur"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:80
 msgid "Domain name to verify TLS certificate"
-msgstr ""
+msgstr "Nume de domeniu pentru verificarea certificatului TLS"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:173
 msgid "Domain suffix for this router and DHCP clients"
-msgstr ""
+msgstr "Sufix de domeniu pentru acest router și clienții DHCP"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:279
 msgid "EDNS Size"
-msgstr ""
+msgstr "EDNS Dimensiune"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/manual.lua:15
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/uciedit.lua:14
 msgid "Edit '"
-msgstr ""
+msgstr "Editare '"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/server.lua:15
 msgid "Edit 'server:' clause options for 'include:"
-msgstr ""
+msgstr "Editați opțiunile clauzei \"server:\" pentru \"include:"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:23
 msgid ""
 "Edit a forward, stub, or zone-file-cache zone for Unbound to use instead of "
 "recursion."
 msgstr ""
+"Editați o zonă forward, stub sau zone-file-cache pentru ca Unbound să o "
+"folosească în locul recursivității."
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/extended.lua:15
 msgid "Edit clauses such as 'forward-zone:' for 'include:"
-msgstr ""
+msgstr "Modificați clauze cum ar fi \"forward-zone:\" pentru \"include:"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:86
 msgid "Edit: Extended"
-msgstr ""
+msgstr "Editare: Extins"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:83
 msgid "Edit: Server"
-msgstr ""
+msgstr "Editare: Server"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:71
 msgid "Edit: UCI"
-msgstr ""
+msgstr "Editare: UCI"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:78
 msgid "Edit: Unbound"
-msgstr ""
+msgstr "Editare: Fără legătură"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:39
 msgid "Enable"
-msgstr "Activează"
+msgstr "Activați"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:102
 msgid "Enable DNS64"
-msgstr ""
+msgstr "Activați DNS64"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:72
 msgid "Enable DNSSEC"
-msgstr ""
+msgstr "Activați DNSSEC"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:54
 msgid "Enable Unbound"
-msgstr ""
+msgstr "Activare fără legătură"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:228
 msgid "Enable access for unbound-control"
-msgstr ""
+msgstr "Activați accesul pentru unbound-control"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:103
 msgid "Enable the DNS64 module"
-msgstr ""
+msgstr "Activați modulul DNS64"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:73
 msgid "Enable the DNSSEC validator module"
-msgstr ""
+msgstr "Activați modulul de validare DNSSEC"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:55
 msgid "Enable the initialization scripts for Unbound"
-msgstr ""
+msgstr "Activați scripturile de inițializare pentru Unbound"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:30
 msgid "Enable this directed zone"
-msgstr ""
+msgstr "Activați această zonă direcționată"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:29
 msgid "Enabled"
@@ -227,39 +234,39 @@ msgstr "Activat"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:297
 msgid "Extended Statistics"
-msgstr ""
+msgstr "Statistici extinse"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:298
 msgid "Extended statistics are printed from unbound-control"
-msgstr ""
+msgstr "Statisticile extinse sunt tipărite din unbound-control"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:213
 msgid "Extra DNS"
-msgstr ""
+msgstr "Extra DNS"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:33
 msgid "Fall Back"
-msgstr ""
+msgstr "Căderea înapoi"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:36
 msgid "Fallback"
-msgstr ""
+msgstr "Retragere"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:66
 msgid "Files"
-msgstr ""
+msgstr "Fișiere"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:99
 msgid "Filter Entire Subnet"
-msgstr ""
+msgstr "Filtrează întreaga subrețea"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:90
 msgid "Filter Localhost Rebind"
-msgstr ""
+msgstr "Filtru Localhost Rebind"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:98
 msgid "Filter Private Address"
-msgstr ""
+msgstr "Filtrează adresa privată"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:95
 msgid "Filter Private Rebind"
@@ -267,7 +274,7 @@ msgstr ""
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:71
 msgid "Forward"
-msgstr ""
+msgstr "Redirecţionare"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:40
 msgid "Forward (simple handoff)"
@@ -342,7 +349,7 @@ msgstr ""
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:216
 msgid "Ignore"
-msgstr ""
+msgstr "Ignoră"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:196
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:208
@@ -420,7 +427,7 @@ msgstr ""
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:42
 msgid "Log"
-msgstr ""
+msgstr "Jurnal"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:58
 msgid "Manual Conf"
@@ -556,7 +563,7 @@ msgstr ""
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/server.lua:11
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/uciedit.lua:11
 msgid "Save"
-msgstr "Salvează"
+msgstr "Salvați"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:67
 msgid "Server Port"
@@ -606,7 +613,7 @@ msgstr ""
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:39
 msgid "Status"
-msgstr "Status"
+msgstr "Stare"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:273
 msgid "Strict Minimize"
@@ -676,7 +683,7 @@ msgstr ""
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:27
 msgid "Type"
-msgstr ""
+msgstr "Tip"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:27
 msgid "Unbound"
@@ -757,7 +764,7 @@ msgstr ""
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:124
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:307
 msgid "default"
-msgstr ""
+msgstr "implicit"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:175
 msgid "download from <var>%s</var>"
